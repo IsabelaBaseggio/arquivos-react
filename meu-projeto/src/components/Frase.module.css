@@ -1,0 +1,21 @@
+/* 
+    não funcionna classe com - "hífe", pois no arquivo JS ele entende como subtração
+    exemplo:
+    .frase-container
+
+    ao invés, use:
+    .fraseContainer
+    ou
+    .frase_container
+*/
+
+.fraseContainer{
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.fraseContent{
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}
