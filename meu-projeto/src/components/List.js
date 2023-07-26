@@ -8,9 +8,10 @@ function List(){
         <>
             <h1>Minha Lista</h1>
             <ul>
-                <Item marca="Ferrari"></Item>
-                <Item marca="Fiat"></Item>
-                <Item marca="Renault"></Item>
+                <Item marca="Ferrari" ano_lancamento={1975}></Item> {/* número como valor de propriedade precisa ser colcoada ente chaves -> {} */}
+                <Item marca="Fiat" ano_lancamento={1964}></Item>
+                <Item marca="Renault" ano_lancamento={1987}></Item>
+                <Item></Item>
             </ul>
         </>
     )
